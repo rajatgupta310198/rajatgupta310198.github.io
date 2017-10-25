@@ -7,11 +7,19 @@
             #ids{
                 background-color: rgba(46, 117, 7, 0.781);
             }
-            #profile-image{
+            .profile-image{
                 max-width: 25%;
                 height: auto;
                 border-radius: 50%;
                 border:1vh solid gray;
+            }
+            @media screen and (max-width: 800px) {
+                .profile-image{
+                    max-width: 50%;
+                    height: auto;
+                    border-radius: 50%;
+                    border:1vh solid gray;
+                }
             }
         </style>
     </head>
@@ -35,7 +43,7 @@
         
         <div class="container">
             <center>
-                    <img id="profile-image" src="images/me.jpg"/>    
+                    <img class="profile-image" src="images/me.jpg"/>    
             </center> 
         </div>
 
