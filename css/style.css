@@ -78,7 +78,7 @@ body {
   background: rgb(248,248,248);
   padding: 6px 10px;
   border-radius: 5px;
-  
+  text-overflow: initial;
   font-weight: 600;
   text-align: left;
 }
@@ -92,7 +92,7 @@ body {
 .direction-r .flag {
   -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
   -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: 1px 10px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
 }
 
 .direction-l .flag::before,
