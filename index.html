@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>        
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -10,6 +10,7 @@
                 /*background-color: rgb(37, 148, 163);*/
                 background-color: rgb(255,80,80);
             }
+            
             .profile-image{
                 margin-top: 15px; 
                 max-width: 25%;
@@ -35,54 +36,71 @@
     <body>
         <nav class="teal">
             <div class="nav-wrapper container">
-                <a  href="#!" class="brand-logo white-text">Rajat Gupta</a>
-                <a href="#" data-activates="mobile-nav" class="button-collapse white-text"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#" class="white-text">About Me</a></li>
-                    <li><a href="#" class="white-text">Projects</a></li>
-                    <li><a href="#" class="white-text">Skills</a></li>
-                </ul>
-                <ul id="mobile-nav" class="side-nav">
-                    <li><a href="#" class="black-text">About Me</a></li>
+                <a  href="#!" class="brand-logo center white-text">Rajat Gupta</a>
+                <a href="#" data-activates="drop-down-nav" class="dropdown-button white-text"><i class="material-icons">menu</i></a>
+                <ul id="drop-down-nav" class="dropdown-content">
+                    <li><a href="#" id="#about_link" class="black-text">About Me</a></li>
+                    <li><a href="#" id="#exp_link" class="black-text">Experience</a></li>
                     <li><a href="#" class="black-text">Projects</a></li>
-                    <li><a href="#" class="black-text">Skills</a></li>
+                    <li><a href="#" class="black-text">Tecnical Skills</a></li>
                 </ul>
+                
             </div>
         </nav>
         
         <div class="container">
-            <center>  <img class="profile-image" src="images/me.jpg"/> </center>
-            <div class="timeline">
-                
-                
-                <li>
-                    <div class="direction-l">
-                        <div class="flag-wrapper">
-                            <span class="flag">
-                                Undergraduate
-                            </span>
-                            <span class="time-wrapper">
-                                <span class="time">August 2015 - present </span>
-                            </span>
+            <div id="experience">
+                <center>  <img class="profile-image" src="images/me.jpg"/> </center>
+                <div class="timeline">                
+                    <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="flag">
+                                    Undergraduate
+                                </span>
+                                <span class="time-wrapper">
+                                     <span class="time">August 2015 - present </span>
+                                </span>
+                            </div>
+                            <div class="desc">International Institute of Information Technology, Naya Raipur<br>B.Tech Electronics and Communication Engineering</div>
                         </div>
-                        <div class="desc">International Institute of Information Technology, Naya Raipur<br>B.Tech Electronics and Communication Engineering</div>
-                    </div>
-                </li>
+                    </li>
+    
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">
+                                    Research Internship
+                                </span>
+                                <span class="time-wrapper">
+                                    <span class="time">May 2017 - July 2017 </span>
+                                </span>
+                            </div>
+                            <div class="desc">Indian Institute of Information Technology, Allahabad</div>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="direction-l">
+                            <span class="flag">
+                                HOD Web Dev    
+                            </span>    
+                            <span class="time-wrapper">
+                                <span class="time">October 2016 - Feb 2017</span>
+                            </span>
+                            <div class="desc">Technovate 2017 @ International Institute of Information Technology, Naya Raipur</div>
+                        </div>    
+                    </li>               
+                
+                </div>
+            </div>
 
-                <li>
-                    <div class="direction-r">
-                        <div class="flag-wrapper">
-                            <span class="flag">
-                                Research Internship
-                            </span>
-                            <span class="time-wrapper">
-                                <span class="time">May 2017 - July 2017 </span>
-                            </span>
-                        </div>
-                        <div class="desc">Indian Institute of Information Technology, Allahabad</div>
-                    </div>
-                </li>                
-            
+            <div id="about-me">
+                <div class="card-panel teal">
+
+                    dfdf
+                    dfd
+                    df
+                </div>
             </div>
                 
         </div>

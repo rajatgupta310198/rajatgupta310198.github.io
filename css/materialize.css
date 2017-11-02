@@ -3,7 +3,7 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
-.materialize-red {
+ .materialize-red {
   background-color: #e51c23 !important;
 }
 
@@ -4223,7 +4223,7 @@ nav .nav-wrapper {
 
 @media only screen and (min-width: 993px) {
   nav a.button-collapse {
-    display: none;
+    display: block;
   }
 }
 

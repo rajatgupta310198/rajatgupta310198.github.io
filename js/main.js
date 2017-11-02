@@ -1,3 +1,18 @@
 $(document).ready(function(){
-    $(".button-collapse").sideNav();
+    $('#about-me').hide("fast");
+    $(".dropdown-button").click(function(){
+        $(".dropdown-button").dropdown('open'); 
+    });   
+});
+$(document).ready(function(){
+    $('#exp_link').click(function(){
+        $('.dropdown-button').dropdown('close');
+        $('#experience').show("fast");
+        $('#about-me').css('display','none');
+    });
+    $('#about_link"').click(function(){
+        ('.dropdown-button').dropdown('close');
+        $('#experience').hide("fast");
+        $('#about-me').show('fast');
+    });
 });
